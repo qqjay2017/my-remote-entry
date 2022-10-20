@@ -18,11 +18,9 @@ module.exports = {
       requiredVersion: dependencies["react-dom"],
     },
     antd: {
-      singleton: true,
       requiredVersion: dependencies["antd"],
     },
     dayjs: {
-      singleton: true,
       requiredVersion: dependencies["dayjs"],
     },
   },
