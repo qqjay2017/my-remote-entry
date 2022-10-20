@@ -4,6 +4,7 @@ module.exports = {
   name: "remote",
   exposes: {
     "./Button": "./src/Button",
+    "./style": "./src/style",
   },
   filename: "remoteEntry.js",
   shared: {

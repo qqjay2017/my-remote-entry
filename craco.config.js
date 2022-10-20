@@ -29,7 +29,17 @@ const config = {
     },
   ],
 
-  webpack: {},
+  webpack: {
+    configure: (webpackConfig, { paths }) => {
+      webpackConfig.output.publicPath = "auto";
+
+      return webpackConfig;
+    },
+    alias: {
+      "@": resolve("src"),
+      components: resolve("src/components"),
+    },
+  },
 
   devServer: {
     open: false,
