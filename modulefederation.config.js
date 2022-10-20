@@ -8,7 +8,7 @@ module.exports = {
   },
   filename: "remoteEntry.js",
   shared: {
-    // ...dependencies,
+    ...dependencies,
     react: {
       singleton: true,
       requiredVersion: dependencies["react"],
@@ -16,12 +16,6 @@ module.exports = {
     "react-dom": {
       singleton: true,
       requiredVersion: dependencies["react-dom"],
-    },
-    antd: {
-      requiredVersion: dependencies["antd"],
-    },
-    dayjs: {
-      requiredVersion: dependencies["dayjs"],
     },
   },
 };
