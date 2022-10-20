@@ -10,6 +10,7 @@ const config = {
   plugins: [
     {
       plugin: cracoModuleFederation,
+      options: { useNamedChunkIds: true },
     },
     {
       plugin: CracoLessPlugin,
