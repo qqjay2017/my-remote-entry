@@ -9,7 +9,7 @@ import ahooks from "ahooks";
 import * as procomponents from "@ant-design/pro-components";
 import * as reactRouterDom from "react-router-dom";
 
-console.log(antd, dayjs, _, ahooks, procomponents, reactRouterDom);
+console.log(antd, dayjs, ahooks, _, procomponents, reactRouterDom);
 
 ReactDOM.render(
   <React.StrictMode>
