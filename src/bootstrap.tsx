@@ -11,13 +11,13 @@ import * as reactRouterDom from "react-router-dom";
 import swiper from "swiper";
 
 import Decimal from "decimal.js";
-import BroadcastChannel from "broadcast-channel";
+
 import nanoid from "nanoid";
 import qrcodeReact from "qrcode.react";
 console.log(antd, dayjs, ahooks, _, procomponents, reactRouterDom);
 console.log(swiper);
 console.log(Decimal, "Decimal");
-console.log(BroadcastChannel, "BroadcastChannel");
+
 console.log(nanoid, "nanoid");
 console.log(qrcodeReact, "nanoid");
 ReactDOM.render(
